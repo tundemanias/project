@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form Popup</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='mail.css'>
+        <link rel="stylesheet" href="popup.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+
+    <body>
+        <div class="center">
+          <input type="checkbox" id="click">
+          <label for="click" class="click-me">Contact Us</label>
+          <div class="content">
+                <div class="wrapper">
+                    <h3>Tell us about your project</h3>
+                    <label for="click" id="times">x</label>
+                    <div action="popup.php" method="get" class="form">
+                        <input type="name" name="name" class="input_field" placeholder="Name....">
+
+                        <input type="email" name="email" class="input_field" placeholder="Email address....">
+
+                        <input type="number" name="number" class="input_field" placeholder="Phone number....">
+
+                        <textarea name="message" class="input_field" placeholder="Your message"></textarea>
+                        <div class="btn">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="popup.js"></script>
+</html>

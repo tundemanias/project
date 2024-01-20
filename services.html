@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>services</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+        <!--Font awesome-->
+        <script src="https://kit.fontawesome.com/cb7600e710.js" crossorigin="anonymous"></script>
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+        <!--Custom styling-->
+        <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <div class="logo">
+                    <img img src="images/easy koncepts logo.png"class="logo-image" >
+                    <h1 class="logo-text"><span>Easy</span><br>Koncepts</h1>
+                </div>
+            </a>
+            
+            <i class="fas fa-bars menu-toggle"></i>
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="services.html">OUR SERVICES</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="index.html">PORTFOLIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </header>
+
+        <div class="blog-image">
+           <img src="images/blogimages.png" alt="blog backgroun image" class="blog-bg">
+        </div>
+    
+
+        <!--SERVICES PAGE-->
+        <div class="service-page clearfix">
+
+            <div class="post">
+                <img src="images/animation L.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="animation.html">Animation</a></h3>
+                    <P>Animate your brand for engaging and interactive to target audience and retain information about your brand.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/content 3.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="content.html">Content writing</a></h3>
+                    <P>Get the results you want from targeting the audience with the most relevant content to attract your business.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/resume 3.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="resume.html">Resume/Cover letter</a></h3>
+                    <P>A well-written resume wins more interviews and help get the attention of hiring managers.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/documentation L.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="documentation.html">Documentation</a></h3>
+                    <P>We provide quality document typist services needed for different kinds of documents.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/escrow L.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="escrow.html">Escrow services</a></h3>
+                    <P>We will secure your funds or products from frauds when buying or selling with third parties.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/graphicsdesign L.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="graphicsdesign.html">Graphic Design</a></h3>
+                    <P>We help you communicate your message using colour, style, typography and creative ideas to your customers.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/webdesign L.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="webdesign.html">Web Design</a></h3>
+                    <P>We are passionate about making beautiful websites to help you attract and retain customers for your business.</P>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="images/jingle L.png" alt="gist" class="slider-image">
+                <div class="post-info">
+                    <h3><a href="jingle.html">Jingle</a></h3>
+                    <P>We gives catchy melody with great hook lines that will best align with your products.</P>
+                </div>
+            </div>
+        </div>
+        <!--//--SERVICES PAGE---->
+
+        <div class="service-page-2">
+            <h2>We create for clients worldwide</h2>
+            <p>Each of our esteemed clients is important for us. Our aim is to deliver something innovative. Client needs are at times complex . We understand this fact and try to imbibe this in our work and final output</p>
+            <h6>Our aim is to always deliver the best to you</h6>
+        </div>
+
+        <!--POP-UP CONTACT FORM-->
+        <div class="form-space">
+            <button class="open-button close-button" onclick="openForm()">START YOUR PROJECT</button>
+
+            <div class="form-popup" id="myForm">
+                <div class="form-space">
+                    <h2>Start your project</h2>
+                    <div class="form-wrapper">
+                        <form action="index.php">
+                            <div class="dbl-field">
+                                <div class="field">
+                                    <input type="text" name="name" placeholder="Enter your name">
+                                    <i class='fas fa-user'></i>
+                                    </div>
+                                    <div class="field">
+                                    <input type="text" name="email" placeholder="Enter your email">
+                                    <i class='fas fa-envelope'></i>
+                                </div>
+                            </div>
+                            <div class="dbl-field">
+                                <div class="field">
+                                    <input type="text" name="phone" placeholder="Enter your phone">
+                                    <i class='fas fa-phone-alt'></i>
+                                    </div>
+                                    <div class="field">
+                                    <input type="text" name="website" placeholder="Website (optional)">
+                                    <i class='fas fa-globe'></i>
+                                </div>
+                            </div>
+                            <div class="message">
+                                <textarea placeholder="Write your message" name="message"></textarea>
+                                <i class="material-icons"></i>
+                            </div>
+                            <div class="button-area">
+                                <button type="submit">Send Message</button>
+                                <span></span>
+                            </div>
+                        </form>
+                    </div>
+                    <button type="submit" class="btn cance" onclick="closeForm()">Close</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <!--POP-UP CONTACT FORM-->
+
+        <!--Service category-->
+        <div class="service-category">
+            <h1>Services category</h1>
+            <div class="service-category-sub-list">
+                <div class="service-category-list">
+                    <h2>Creative services</h2>
+                    <ul class="b-list">
+                        <li><a href="content.html">Content Writing</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="jingle.html">Jingle</a></li>
+                        <li><a href="webdesign.html">Web Development</a></li>
+                    </ul>
+                </div>
+                    
+                <div class="service-category-list ">
+                    <h2>Monitory services</h2>
+                    <ul class="b-list">
+                        <li><a href="escrow.html">Escrow</a></li>
+                        <li><a href="index.html">Point of sales</a></li>
+                        <li><a href="index.html">Buying and selling of fund</a></li>
+                        <li><a href="index.html">buying and selling crypto</a></li>
+                    </ul>
+                </div>
+                <div class="service-category-list ">
+                    <h2>Cleaning services</h2>
+                    <ul class="b-list">
+                        <li><a href="index.html">Residential</a></li>
+                        <li><a href="index.html">Commercial</a></li>
+                        <li><a href="index.html">Janitorial</a></li>
+                        <li><a href="index.html">Pressure washing</a></li>
+                    </ul>
+                </div>
+                <div class="service-category-list ">
+                    <h2>Other services</h2>
+                    <ul class="b-list">
+                        <li><a href="index.html">Daily best odd</a></li>
+                        <li><a href="index.html">Daily forex prediction</a></li>
+                        <li><a href="index.html">Daily crypto prediction</a></li>
+                        <li><a href="index.html">Importation of food</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+
+        <!--FOOTER-->
+        <div class="footer list">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <div class="footer-fulllogo">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="images/easy koncepts logo.png"></a>
+                        </div>
+                        <div class="footer-slogan">
+                            <p>Visual To Reality</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="contacts">
+                        <p><a href="tel:+2347062253074">+2347062253074</a></p>
+                        <p><a href="mailto:easykoncepts@gmail.com">easykoncepts@gmail.com</a></p>
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/easykoncepts" alt="twitter logo icon"><img src="images/facebook logo.png"></a>
+                        <a href="https://twitter.com/easykoncepts"><img src="images/twitter logo.png" alt="twitter logo icon"></a>
+                        <a href="https://www.instagram.com/easykoncepts/"><img src="images/instagram logo.png" alt="instagram logo icon"></a>
+                        <a href="https://pin.it/45bQ5tn"><img src="images/pinterest logo.png" alt="pinterest logo icon"></a>
+                        <a href="https://wa.link/ugfxdp"><img src="images/WhatsApp.webp" class="swhat" alt="whatsap logo icon"></a>
+                    </div>
+                </div> <hr>
+
+                <div class="footer-section links">
+                    <div class="additional">
+                        <h2 class="head">ADDITIONAL LINKS</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="index.html">Portfolio</a></li>
+                            <li><a href="services.html">Our services</a></li>
+                        </ul>
+                    </div>
+                </div> <hr>
+
+                <div class="footer-section contact">
+                    <h2 class="head">Contact Us</h2>
+                    <br>
+                    <form action="/mail.php" method="POST">
+                        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                        <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message"></textarea>
+                        <button type="Submit" class="btn btn-big contact-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2022. | <a href="index.html">EasyKoncepts</a> | All rights reserved
+            </div>
+        </div>
+
+        <!--JQuery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!--slick carousel-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <!--Custon script-->
+        <script src="index.js"></script>
+    </body>
+</html>
+       

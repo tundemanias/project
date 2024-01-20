@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form in PHP | CodingNepal</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='mail.css'>
+    <link rel="stylesheet" href="mai.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Send us a Message</header>
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h1>Tell us about your project</h1>
+    
+        <input type="name" name="name" class="text-input contact-input" placeholder="Name....">
+    
+        <input type="email" name="email" class="text-input contact-input" placeholder="Email address....">
+
+        <input type="number" name="number" class="text-input contact-input" placeholder="Phone number....">
+
+        <textarea name="message" class="text-input contact-input text-area" placeholder="Your message"></textarea>
+    
+        <button type="submit" class="btn cance" onclick="closeForm()">SEND MESSAGE</button>
+    </form>
+    </div>
+
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+  
+    <script src="mail.js"></script>
+  
+  </body>
+  </html>

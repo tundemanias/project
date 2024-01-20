@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background: #dde1e7;
+    min-height: 100vh;
+}
+
+.center,.content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+  
+  
+}
+
+.wrapper{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid green;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+  
+.click-me{
+    display:block;
+    width:160px;
+    height:50px;
+    background: #dde1e7;
+  
+    text-align:center;
+    font-size:22px;
+    line-height:50px;
+    cursor:pointer;
+    box-shadow: -3px -3px 7px #fffdfdcc,
+                3px 3px 5px rgba(94, 104, 121, 0.342);
+}
+  
+  
+#click{
+    display:none;
+}
+
+.click-me:hover{
+    color: #08adef;
+    box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+}
+
+.content{
+    opacity:0;
+    visibility:hidden;
+  
+    width: 330px;
+    height: auto;
+  
+    background: #dde1e7;
+    padding: 30px 35px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+                 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+  
+#times{
+    position:absolute;
+    right:10px;
+    top:20px;
+    font-size:25px;
+    background: #dde1e7;
+    padding: 3px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 50%;
+  
+    box-shadow: -4px -4px 7px #fffdfdb7,
+                3px 3px 5px rgba(94, 104, 121, 0.24);
+    cursor:pointer;
+}
+  
+  
+#click:checked~.content{
+    opacity:1;
+    visibility:visible;
+}
+  
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+.wrapper h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 23px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid blue;
+}
+  
+.wrapper .input_field{
+    margin-bottom: 15px;
+}
+  
+.wrapper .input_field input[type="text"],
+.wrapper .input_field textarea{
+    width: 100%;
+    padding: 12px;
+    border: 0;
+}
+  
+input,textarea{
+      display: block;
+      height: 43px;
+      width: 100%;
+      background-color: rgba(255,255,255,0.07);
+      border-radius: 3px;
+      border: none;
+      box-shadow: inset 2px 2px 5px #babecc,
+                inset -5px -5px 10px #ffffff73;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 300;
+}
+  
+.wrapper .input_field textarea{
+    resize: none;
+    height: 100px;
+}
+  
+  
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #656a6c;
+    text-transform: uppercase;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #656a6c;
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #656a6c;
+    text-transform: uppercase;
+}
+  
+.wrapper .form .btn{
+    display: non;
+    margin-top: 25px;
+    background: linear-gradient(170deg,#e8207f,#f23ebc);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+  
+.wrapper .form .btn a{
+    color: #fff;
+    display: block;
+}
+
+button{
+    width: 100%;
+    margin-top: 35px;
+    padding: 12px;
+    background: #dde1e7;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    box-shadow: -4px -4px 7px #fffdfdb7,
+                3px 3px 5px rgba(94, 104, 121, 0.388);
+}
+
+button:hover{
+    box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+}
